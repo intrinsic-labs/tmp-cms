@@ -659,7 +659,7 @@
           "type": "string"
         }
       },
-      "aboutContent": {
+      "historyContent": {
         "type": "objectAttribute",
         "value": {
           "type": "array",

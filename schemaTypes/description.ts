@@ -2,12 +2,12 @@ import {defineField, defineType} from 'sanity'
 
 export default defineType({
   name: 'description',
-  title: 'About Section',
+  title: 'History Section',
   type: 'document',
   fields: [
     defineField({
-      name: 'aboutContent',
-      title: 'About TMP Content',
+      name: 'historyContent',
+      title: 'TMP History Content',
       type: 'array',
       of: [
         {
@@ -69,7 +69,7 @@ export default defineType({
     },
     prepare() {
       return {
-        title: 'About Section',
+        title: 'History Section',
         subtitle: 'Site description and background content',
       }
     },
