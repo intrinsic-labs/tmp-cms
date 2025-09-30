@@ -5,6 +5,9 @@ export default defineCliConfig({
     projectId: '2swoqba6',
     dataset: 'production'
   },
+  deployment: {
+    appId: 'urel996tpdd3izfzha623tn7',
+  },
   /**
    * Enable auto-updates for studios.
    * Learn more at https://www.sanity.io/docs/cli#auto-updates
