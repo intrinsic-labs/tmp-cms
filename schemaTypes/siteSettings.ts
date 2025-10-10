@@ -119,6 +119,16 @@ export default defineType({
         },
       ],
     }),
+    defineField({
+      name: 'donateUrl',
+      title: 'Donate URL',
+      type: 'url',
+      description: 'URL for the donation page (e.g., Stripe donation link)',
+      validation: (Rule) => Rule.required().uri({
+        allowRelative: false,
+        scheme: ['http', 'https'],
+      }),
+    }),
   ],
   preview: {
     select: {
