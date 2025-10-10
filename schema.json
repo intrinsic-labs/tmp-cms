@@ -839,6 +839,13 @@
           }
         },
         "optional": true
+      },
+      "donateUrl": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "string"
+        },
+        "optional": false
       }
     }
   },
